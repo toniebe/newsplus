@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532566190384",
+    "project_id": "newsplus-b8be0",
+    "storage_bucket": "newsplus-b8be0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532566190384:android:3467e4f9465643ab0f00f5",
+        "android_client_info": {
+          "package_name": "com.surplus_react_native_challenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532566190384-p6pc1rved123a76qvvbv143idagbumbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwKI46_mTam3PLUnUnjR1of5vizw6EcKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532566190384-p6pc1rved123a76qvvbv143idagbumbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

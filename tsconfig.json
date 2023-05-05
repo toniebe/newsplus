@@ -1,0 +1,26 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@SharedHelper/*": [
+        "src/shared/helper/*"
+      ],
+      "@SharedStyles/*": [
+        "src/shared/styles/*"
+      ],
+      "@SharedImages/*": [
+        "src/shared/assets/images/*"
+      ],
+      "@SharedModule/*": [
+        "src/shared/*"
+      ],
+      "@FeatureModule/*": [
+        "src/feature/*"
+      ],
+      "@Navigation/*": [
+        "src/navigation/*"
+      ]
+    }
+  }
+}
