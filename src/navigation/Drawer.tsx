@@ -7,6 +7,7 @@ import {Secondary, White} from '@SharedStyles/colors';
 import ProfileContainer from '@FeatureModule/Profile/Container/ProfileContainer';
 import CategoryStack from './CategoryStack';
 import DashboardStack from './DashboardStack';
+import TestScreen from '@FeatureModule/TestScreen/TestScreen';
 
 const Drawer = createDrawerNavigator();
 const DrawerStack = () => {
@@ -63,6 +64,19 @@ const DrawerStack = () => {
         }}
         name="Profile"
         component={ProfileContainer}
+      />
+      <Drawer.Screen
+        options={{
+          title: 'For testing',
+          drawerIcon: ({color}) => (
+            <Image
+              source={require('@SharedImages/icons/profile.png')}
+              style={{width: scale(20), height: scale(20), tintColor: color}}
+            />
+          ),
+        }}
+        name="TestScreen"
+        component={TestScreen}
       />
     </Drawer.Navigator>
   );

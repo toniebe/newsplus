@@ -51,3 +51,9 @@ __Notes__:
 # API
 
 [GNews](https://gnews.io/docs/v4#introduction)
+
+# ENV
+
+1. Create env
+2. BASE_URL=https://gnews.io/api/v4
+3. API_KEY= create api key in gnews.io

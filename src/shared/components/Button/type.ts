@@ -10,8 +10,8 @@ export interface ButtonCustomeProps {
 
 export interface ButtonPrimaryProps {
   title: string;
-  buttonColor: string;
-  titleColor: string;
+  buttonColor?: string;
+  titleColor?: string;
   size: string;
   onPress: any;
 }

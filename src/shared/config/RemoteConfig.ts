@@ -28,3 +28,7 @@ export const GetAllConfig = (data: any, cb: any) => {
   });
   cb();
 };
+
+export const remoteConfigGetValue = (value: string) => {
+  return remoteConfig().getValue(`${value}`);
+};
